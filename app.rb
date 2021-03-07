@@ -12,7 +12,7 @@ end
     latinized = PigLatinizer.new
     #binding.pry
     @piglatinize = latinized.piglatinize(params[:user_phrase])
-    binding.pry
+   # binding.pry
     
     erb :result
 end
