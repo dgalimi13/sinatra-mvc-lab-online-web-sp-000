@@ -10,7 +10,7 @@ end
   post '/piglatinize' do 
     
     latinized = PigLatinizer.new
-    binding.pry
+    #binding.pry
     @piglatinize = latinized.piglatinize(params[:user_phrase])
     
     
